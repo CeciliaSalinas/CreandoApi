@@ -12,7 +12,8 @@ namespace CreandoApi.Context
             
         }
 
-        public DbSet<Person> Persons { get; set; }
+        public DbSet<Empleadxs> Persons { get; set; }
+
         //dbset :clase de entity fram. que representa una coleccion de entidades en el contexto de las bases de datos
         //<Person>: es el tipo de entidad(clase que representa objetos o modelo de datos) que se almacenará en este conjunto ( el tipo de entidad es el tipo de modelo que estamos construyendo)
         //Persons : la entidad es de tipo person y el conjunto se llama persons
